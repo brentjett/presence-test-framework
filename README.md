@@ -32,7 +32,7 @@ var security_plugins = [
 	“all-in-one-wp-security”,
 	“better-wp-security”,
 	“bullet-proof-security”
-]
+];
 var plugins = Site.platform.active_plugins;
 // SKIP CODE: foreach plugin, check if handle is in array security_plugins
 
