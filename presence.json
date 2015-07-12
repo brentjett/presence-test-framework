@@ -1,0 +1,46 @@
+{
+    "name" : "Scratch 'n Sniff Pet Motel",
+    "properties" : {
+        "websites" : {
+            "http://www.scratchnsniffpetmotel.com" : {
+                "total_pages" : 15,
+                "platform" : "Squarespace"
+            },
+            "http://blog.scratchnsniffpetmotel.com" : {
+                "platform" : "wordpress.com"
+            }
+        },
+        "facebook" : {
+            "https://www.facebook.com/fitnfurry" : {
+                "page_type" : "business",
+
+            }
+        }
+    },
+    "locations" : {
+        "madera" : {
+            "name" : "Scratch 'n Sniff - Madera",
+            "physical_address" : {
+                "street" : "",
+                "city" : "Austin",
+                "state" : "tx",
+                "postal_code" : 78759,
+                "country" : "us"
+            },
+            "coordinates" : {
+                "lat" : 123091230912.2,
+                "long" : 18723948723.4
+            },
+            "phone_numbers" : {
+                "primary" : 5554443322,
+                "found_1" : 2341230965
+            },
+            "email_addresses" : {
+                "information" : "info@scratchnsniffpetmotel.com"
+            }
+        }
+    },
+    "mentions" : {
+        "I don't know what goes" :  "here"
+    }
+}

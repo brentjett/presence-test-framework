@@ -1,4 +1,4 @@
-# Initial questions for generic website
+# Initial Questions for Evaluating a Generic Website
 
 ## Is the site up?
 A simple response code from the homepage should cover this (right?).
