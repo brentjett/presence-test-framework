@@ -2,7 +2,10 @@
 
 Scratchwork for a web presence testing framework.
 
+## Web Presence (Account Object)
 A web presence is a collection of web properties owned/used by a business or individual, as well as mentions discovered on the web. Building this presence into a profile allows unit tests to be run against each property to evaluate its health or functionality.
+
+See [object model example](presence.json).
 
 ## Test Suite
 A test suite is comprised of a group of tests that are run on a certain type of web property (ex: a facebook page). Whenever a new property of type X is added, any test suites registered against that type of property are run. When all test suites are finished being run and no reruns are triggered, a final "web presence" test suite is run and the results are reported.
