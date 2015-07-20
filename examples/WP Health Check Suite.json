@@ -3,6 +3,11 @@
     "subject" : "DigitalAsset",
     "conditions" : [
         {
+            "property" : "Kind",
+            "operator" : "=",
+            "value" : "Website"
+        },
+        {
             "property" : "Platform",
             "operator" : "=",
             "value" : "WordPress"
