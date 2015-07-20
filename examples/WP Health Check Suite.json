@@ -1,0 +1,14 @@
+{
+    "name" : "General WordPress Health Check",
+    "subject" : "DigitalAsset",
+    "conditions" : [
+        {
+            "property" : "Platform",
+            "operator" : "=",
+            "value" : "WordPress"
+        }
+    ],
+    "tests" : [
+        "wordpress-updated"
+    ]
+}
