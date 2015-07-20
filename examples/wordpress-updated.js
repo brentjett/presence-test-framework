@@ -13,4 +13,7 @@ if (wpVersion != wpLatestVersion) {
     
     wpVersionsBehind = Reference.Platforms.WordPress.compareVersions(wpVersion, "latest"));
     Response.addData("Versions Behind", wpVersionsBehind);
+} else {
+    Response.answer = true;
+    Response.log("WordPress is up to date!");
 }
