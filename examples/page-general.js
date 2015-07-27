@@ -12,9 +12,9 @@ Page.elements; // dom
 var metas = Page.elements.find("meta");
 metas.each(function(element){
   var item = {};
-  if (item.attr("name") != undefined) item.name = item.attr("name");
-  if (item.attr("content") != undefined) item.content = item.attr("content");
-  if (item.attr("http-equiv") != undefined) item.http_equiv = item.attr("http-equiv");
+  if (item.attr("name") !== undefined) item.name = item.attr("name");
+  if (item.attr("content") !== undefined) item.content = item.attr("content");
+  if (item.attr("http-equiv") !== undefined) item.http_equiv = item.attr("http-equiv");
   Response.addObject(item);
 });
 
@@ -25,3 +25,5 @@ Response.addItem("Total Outbound Links", total_outbound_links);
 
 // Count tel: links
 // Count mailto: links
+
+
