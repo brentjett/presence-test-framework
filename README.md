@@ -1,6 +1,6 @@
 # Digital Presence Testing
 
-Scratchwork for a digital presence testing framework.
+Notes for a testing platform to evaluate different kinds of web properties collectively as a "Digital Presence". A Digital presence includes web properties, physical business locations, associated people, and mentions/backlinked sites.
 
 ## Digital Presence (Account Object)
 A digital presence is a collection of properties owned/used by a business or individual, as well as mentions discovered on the web. Building this presence into a profile allows unit tests to be run against each property to evaluate its health or functionality.
