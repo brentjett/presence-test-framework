@@ -8,7 +8,7 @@ A digital presence is a collection of properties owned/used by a business or ind
 See [object model example](examples/account-obj.json).
 
 ## Test Suite
-A test suite is comprised of a group of tests that are run on a certain type of property (ex: a facebook page). Whenever a new property of type X is added, any test suites registered against that type of property are run. When all test suites are finished being run and no reruns are triggered, a final "web presence" test suite is run and the results are reported.
+A test suite is comprised of a group of tests that are run on a certain type of property (ex: a facebook page). Whenever a new property of type X is added, any test suites registered against that type of property are run. When all test suites are finished being run and no reruns are triggered, a final account-level test suite is run to allow for summaries and conclusions. All suites should be time-independant and able to run over different sets of account data, or rerun over the same data over time.
 
 ## Test
 A test is a scripting unit for asking specific questions of a web property. Tests are grouped into test suites. Testing if a WordPress install is secure might look something like this:
