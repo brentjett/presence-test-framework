@@ -47,4 +47,6 @@ if (users[0].has_role(‘admin’)) {
 ```
 
 ## Test Response
-Each instance of a test has a response that may indicate a pass/fail status or a score/rating of some kind. A test response may also include arbitrary data attachments such as key/value pairs, lists, or tabular data which should be copyable or downloadable.
+Each instance of a test has a response that may indicate a pass/fail status or a score/rating of some kind. A test response may also include arbitrary data attachments such as key/value pairs, lists, or tabular data which should be copyable or downloadable. A test's response may also be able to show visual things like collections of images, data visualizations, or rich media like maps or videos.
+
+The response of a Test Suite is the collective list of the responses from all completed tests.
